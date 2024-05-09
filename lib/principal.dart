@@ -42,6 +42,14 @@ class _PrincipalState extends State<Principal> {
                         builder: (ctx) => Container(
                           child: Icon(Icons.location_on, color: Colors.white),
                         ),
+                      ),
+                      Marker(
+                        width: 80.0,
+                        height: 80.0,
+                        point: LatLng(-23.588024340805067, -48.070950646414495),
+                        builder: (ctx) => Container(
+                          child: Icon(Icons.location_on, color: Colors.white),
+                        ),
                       )
                     ],
                   )
